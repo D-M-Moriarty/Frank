@@ -31,7 +31,7 @@
 
 	html,body{
         margin: 0px;
-        background-color: #d49b12;
+        background-color: #fff;
         /*color: background-color: #371e54;*/
         /*background-image: url('images/18.jpg');
         background-size: 100% auto;
@@ -79,16 +79,21 @@
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 		margin-top: .5em;
 		font-weight: bold;
+		color: #6b6f3b;
 	}
 
 	#bootstrap-overrides .footer {
 		width: 100%
 		height: 4em;
-		color: #342605;
+		color: #fff;
 	}
 
+	#bootstrap-overrides .navbar a{
+    color: #6b6f3b;
+  }
+
 	.rightText {
-		/*background-color: #fff;*/
+		background-color: #fff;
 		border-radius: 5px;
 		width: 35%;
 		opacity: .9;
@@ -212,7 +217,7 @@
 
 #bootstrap-overrides .mg-copyright {
 	width: 100%;
-	background-color: #fff;
+	background-color: #6b6f3b;
 	height: auto;
 	padding: 1em;
 	position: relative;
@@ -236,9 +241,14 @@ footer {
     bottom: 0; 
     left: 0; */
     width: 100%;
-    background-color: #fff;
+    background-color: #6b6f3b;
+    color: #fff;
     height: auto;
     opacity: .9;
+  }
+
+  footer a {
+  	color: #fff;
   }
 
   .footer,
@@ -338,7 +348,7 @@ footer {
             <div class="col-md-3 col-sm-6">
               <div  class="widget">
                 <h2 class="mg-widget-title">Social Media</h2>
-                <p style="font-size: 100%">To view my social media for current news and offers, visit the our pages with the icons below</p>
+                <p style="font-size: 100%;color: #fff;">To view my social media for current news and offers, visit the our pages with the icons below</p>
                 <ul class="mg-footer-social">
                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>

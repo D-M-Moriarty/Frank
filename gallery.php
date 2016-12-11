@@ -32,7 +32,7 @@
       
       html,body{
         margin: 0px;
-        background-color: #d49b12;
+        background-color: #fff;
         /*color: background-color: #371e54;*/
         /*background-image: url('images/18.jpg');
         background-size: 100% auto;
@@ -63,6 +63,7 @@
         /*width: 20%;*//*
         padding: 10px;*/
         margin: 10px;
+        box-shadow: 10px 10px 5px #888888;
       }
 
       img{
@@ -147,12 +148,18 @@
 
 #bootstrap-overrides .mg-copyright {
   width: 100%;
-  background-color: #fff;
+  background-color: #6b6f3b;
+
   height: auto;
   padding: 1em;
   position: relative;
   left: -2em;
 }
+
+h1 {
+  color: #6b6f3b;
+}
+
 
 #bootstrap-overrides .mg-footer-social li{
   display: inline;
@@ -162,8 +169,9 @@
   left: -1.5em;
 }
 
+
 .copyright {
-  color: #fff;
+ background-color: #6b6f3b;
 }
 
 footer {
@@ -171,9 +179,14 @@ footer {
     bottom: 0; 
     left: 0; */
     width: 100%;
-    background-color: #fff;
+    background-color: #6b6f3b;
+    color: #fff;
     height: auto;
     opacity: .9;
+  }
+
+  footer a{
+    color: #fff;
   }
 
   .footer,
@@ -182,11 +195,22 @@ footer {
   margin-top: 3em;
 }
 
-.navbar {
+#bootstrap-overrides .navbar {
     border-radius: 0;
-    background-color: #342605;
-        border-color: #342605;
-        color: #d49b12;
+    background-color: #fff;
+        border-color: #fff;
+        opacity: .9;
+        
+  }
+
+  #bootstrap-overrides .navbar a{
+    color: #6b6f3b;
+  }
+
+  .heading {
+    width: 100%;
+    height: auto;
+    text-align: center;
   }
 
     </style>
@@ -218,10 +242,29 @@ footer {
   </div><!-- /.container-fluid -->
 </nav>
 
+  <div class="heading">
+    
+    <h1>Welcome to my gallery of custom paintings</h1>
+    <p>Welcome to my gallery of custom paintings</p>
+
+  </div>
+
   <div class="wrapContainer wrapper">
 
     <?php 
 
+    $info1 = "Golden Eagle <br>Black Valley Killarney,<br>Co. Kerry<br>Ireland<br>€55 incl postings<br>A2 print";
+    $info2 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
     $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
 
       for ($i=1; $i < 27; $i++) { 

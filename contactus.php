@@ -33,12 +33,12 @@
 
       html,body{
         margin: 0px;
-        background-color: #d49b12;
+        /*background-color: #d49b12;*/
         /*color: background-color: #371e54;*/
-        /*background-image: url('images/18.jpg');
+        background-image: url('images/18.jpg');
         background-size: 100% auto;
         background-repeat: repeat;
-        background-position: top;*/
+        background-position: top;
         height: 100%;
         margin: 0;
 

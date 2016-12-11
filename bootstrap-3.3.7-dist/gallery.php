@@ -135,7 +135,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Abbeyland Art</a>
+      <a class="navbar-brand" href="index.php">Abbeyland Art</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -143,7 +143,7 @@
       <ul class="nav navbar-nav">
         <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
         <li class="active"><a href="#">Gallery</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="contactus.php">About Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -153,9 +153,11 @@
 
     <?php 
 
+    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+
       for ($i=2; $i < 37; $i++) { 
         echo "<div class='block gallery'>";
-        echo "<a href='images/$i.jpg' data-title='lightbox' data-lightbox='the lightbox'>
+        echo "<a href='images/$i.jpg' data-title='$info1' data-lightbox='the lightbox'>
                 <img src='images/$i.jpg' class='img-thumbnail'>
               </a>";
         echo "</div>";

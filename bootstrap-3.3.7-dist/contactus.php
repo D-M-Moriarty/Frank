@@ -19,6 +19,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom-css.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,6 +27,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
 </head>
 <body id="bootstrap-overrides">
  
@@ -39,66 +42,74 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Abbeyland Art</a>
+      <a class="navbar-brand" href="index.php">Abbeyland Art</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
         <li><a href="gallery.php">Gallery</a></li>
-        <li><a href="contactus.php">About Us</a></li>
+        <li class="active"><a href="#">About Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-
-
   <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-md-6">
-        <div class="thumbnail">
-          <img src="images/14.jpg" alt="...">
-          <div class="caption">
-          </div>
+
+    <form class="form-horizontal" role="form" method="post" action="index.php">
+      <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
         </div>
       </div>
-      <div class="col-sm-6 col-md-6">
-        <div class="thumbnail">
-          <img src="images/3.jpg" alt="White Tailed Eagle">
-          <div class="caption">
-            <h3>White Tailed Eagle</h3>
-            <p class="leftPara">The Skelligs,<br>Co. Kerry<br>Ireland</p>
-            <p class="text-right">€60 incl postings<br>A2 print</p>
-          </div>
+      <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
         </div>
       </div>
-    </div><!-- end of row -->
-  </div><!-- End of the container -->
-
-	
-	
-
-	
-
-
+      <div class="form-group">
+        <label for="message" class="col-sm-2 control-label">Message</label>
+        <div class="col-sm-10">
+          <textarea class="form-control" rows="4" name="message"></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+          <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+          <! Will be used to display an alert to the user>
+        </div>
+      </div>
+    </form>
     
     
-
-
-
-    
-      
-      
-      
-
-
+  </div>
 
  
- <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <!-- or -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
+
+    <script>
+      $(window).on('load', function(){
+        $('.wrapContainer').masonry({
+          columnWidth: '.block',
+          itemSelector: '.block'
+        });
+      });
+    </script>
+
 </body>
 </html>

@@ -1,0 +1,14 @@
+.navbar-inverse{
+	opacity: .2;
+	height: 7em;
+}
+
+.navbar-inverse .navbar-nav > li.active > a:hover,
+.navbar-inverse .navbar-nav > li.active > a:focus,
+.navbar-inverse .navbar-nav > li.active > a:active {
+  color: #e7b315;
+  background-color: transparent;
+}
+
+
+

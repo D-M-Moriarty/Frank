@@ -1,0 +1,15 @@
+#bootstrap-overrides .thumbnail{
+	float: right;
+}
+
+#bootstrap-overrides .leftPara {
+	float: left;
+	width: 50%;
+}
+
+#bootstrap-overrides .rightPara{
+	float: right;
+
+}
+
+

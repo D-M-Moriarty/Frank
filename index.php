@@ -26,6 +26,18 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+	<style type="text/css">
+		
+
+	p{
+		font-size: 200%;
+		font-family: 'Aref Ruqaa';
+		vertical-align: middle;
+	}
+
+	</style>
+
 </head>
 <body id="bootstrap-overrides">
  
@@ -65,12 +77,15 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-6">
-        <div class="thumbnail">
-          <img src="images/3.jpg" alt="White Tailed Eagle">
-          <div class="caption">
-            <h3>White Tailed Eagle</h3>
-            <p class="leftPara">The Skelligs,<br>Co. Kerry<br>Ireland</p>
-            <p class="text-right">€60 incl postings<br>A2 print</p>
+        <p> A story of two chilren growing up near an old abbey
+        	and church in Milltown, Co. Kerry. The family pets, the abbey and old white church
+        	are brought to life with stories of the resident animals that live there. 
+        	The story has been written and illustrated by the children's father Frank.</p>
+        <p>Frank Molloy grew up in Chester, England, an old roman city close to Liverpool.
+        	Frank first worked at Chester Zoo for several years before moving to Dublin where he met
+        	his wife Barbara. They now have two children Ciara and Wayne and live near Milltown,
+        	Co. Kerry. Frank has had an interest in art and nature all his life and decided 
+        	to record their time in Milltown with pictures and words.</p>
           </div>
         </div>
       </div>

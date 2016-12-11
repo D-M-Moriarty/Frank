@@ -109,9 +109,9 @@ footer {
 
 .navbar {
     border-radius: 0;
-    background-color: #342605;
-        border-color: #342605;
-        color: #d49b12;
+    background-color: #fff;
+        border-color: #fff;
+        opacity: .9;
   }
 
 

@@ -51,15 +51,11 @@
 }
 
 	.navbar {
-		border-radius: 0;
-		background-color: #342605;
-        border-color: #342605;
-        color: #d49b12;
-	}
-
-	.navbar a {
-		color: #d49b12;
-	}
+    border-radius: 0;
+    background-color: #fff;
+        border-color: #fff;
+        opacity: .9;
+  }
 /*
 	footer {
 		position:absolute;

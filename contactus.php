@@ -28,6 +28,88 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style type="text/css">
+      
+
+      html,body{
+        margin: 0px;
+        background-color: #d49b12;
+        /*color: background-color: #371e54;*/
+        /*background-image: url('images/18.jpg');
+        background-size: 100% auto;
+        background-repeat: repeat;
+        background-position: top;*/
+        height: 100%;
+        margin: 0;
+
+      }
+
+      .wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+      .theForm {
+        width: 80%;
+        margin: 5em auto;
+      }
+
+      .btnColor {
+        background-color: #342605;
+        border-color: #342605;
+      }
+
+
+      #bootstrap-overrides .mg-copyright li{
+  list-style-type: none;
+  display: inline;
+  padding: 1em;
+  
+}
+
+#bootstrap-overrides .mg-copyright {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  padding: 1em;
+  position: relative;
+  left: -2em;
+}
+
+#bootstrap-overrides .mg-footer-social li{
+  display: inline;
+  font-size: 200%;
+  padding-right: .3em;
+  position: relative;
+  left: -1.5em;
+}
+
+.copyright {
+  color: #fff;
+}
+
+footer {
+    /*position: absolute; 
+    bottom: 0; 
+    left: 0; */
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    opacity: .9;
+  }
+
+  .footer,
+.push {
+  height: auto;
+  margin-top: 3em;
+}
+
+
+    </style>
+
 
 </head>
 <body id="bootstrap-overrides">
@@ -56,30 +138,32 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-  <div class="container">
+  <div class="container wrapper">
 
+
+  <div class="theForm">
     <form class="form-horizontal" role="form" method="post" action="index.php">
       <div class="form-group">
         <label for="name" class="col-sm-2 control-label">Name</label>
-        <div class="col-sm-10">
+        <div class="col-sm-8">
           <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
         </div>
       </div>
       <div class="form-group">
         <label for="email" class="col-sm-2 control-label">Email</label>
-        <div class="col-sm-10">
+        <div class="col-sm-8">
           <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
         </div>
       </div>
       <div class="form-group">
         <label for="message" class="col-sm-2 control-label">Message</label>
-        <div class="col-sm-10">
+        <div class="col-sm-8">
           <textarea class="form-control" rows="4" name="message"></textarea>
         </div>
       </div>
       <div class="form-group">
         <div class="col-sm-10 col-sm-offset-2">
-          <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+          <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary btnColor">
         </div>
       </div>
       <div class="form-group">
@@ -88,9 +172,65 @@
         </div>
       </div>
     </form>
+  </div>
+    
     
     
   </div>
+
+  <footer class="footer">
+      <div class="mg-footer-widget">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div  class="widget">
+                <h2 class="mg-widget-title">Contact US</h2>
+                <strong>CONTACT FRANK</strong><br>
+              Tel: +353 (0) 87 7517729,<br>
+              Email: <a href=#>studio@frankmolloy.ie</a> 
+              <ul class="mg-footer-nav mg-copyright">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="contactus.php">Contact</a></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              
+            </div>
+            <div class="col-md-3 col-sm-6">
+              
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div  class="widget">
+                <h2 class="mg-widget-title">Social Media</h2>
+                <p style="font-size: 100%">To view my social media for current news and offers, visit the our pages with the icons below</p>
+                <ul class="mg-footer-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="mg-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="mg-footer-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="contactus.php">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <p class="copyright">&copy; 2016 <a href="#">Darren Moriarty</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </footer>
 
  
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

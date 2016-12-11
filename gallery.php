@@ -29,11 +29,27 @@
     <![endif]-->
 
     <style type="text/css">
+      
       html,body{
         margin: 0px;
-        background-color: #fff;
+        background-color: #d49b12;
         /*color: background-color: #371e54;*/
+        /*background-image: url('images/18.jpg');
+        background-size: 100% auto;
+        background-repeat: repeat;
+        background-position: top;*/
+        height: 100%;
+        margin: 0;
+
       }
+
+      .wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
 
       .wrapContainer{
         /*padding: 10px;*/
@@ -66,6 +82,7 @@
               width: 100%;
               margin: 0 auto;
               margin-bottom: 2em;
+             /* margin-left: 5%;*/
           }
       }
 
@@ -120,6 +137,51 @@
           }
       }
 
+
+      #bootstrap-overrides .mg-copyright li{
+  list-style-type: none;
+  display: inline;
+  padding: 1em;
+  
+}
+
+#bootstrap-overrides .mg-copyright {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  padding: 1em;
+  position: relative;
+  left: -2em;
+}
+
+#bootstrap-overrides .mg-footer-social li{
+  display: inline;
+  font-size: 200%;
+  padding-right: .3em;
+  position: relative;
+  left: -1.5em;
+}
+
+.copyright {
+  color: #fff;
+}
+
+footer {
+    /*position: absolute; 
+    bottom: 0; 
+    left: 0; */
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    opacity: .9;
+  }
+
+  .footer,
+.push {
+  height: auto;
+  margin-top: 3em;
+}
+
     </style>
 
 </head>
@@ -149,13 +211,13 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-  <div class="wrapContainer ">
+  <div class="wrapContainer wrapper">
 
     <?php 
 
     $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
 
-      for ($i=2; $i < 37; $i++) { 
+      for ($i=1; $i < 27; $i++) { 
         echo "<div class='block gallery'>";
         echo "<a href='images/$i.jpg' data-title='$info1' data-lightbox='the lightbox'>
                 <img src='images/$i.jpg' class='img-thumbnail'>
@@ -167,6 +229,65 @@
     ?>
     
   </div>
+
+  <footer class="footer">
+      <div class="mg-footer-widget">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div  class="widget">
+                <h2 class="mg-widget-title">Contact US</h2>
+                <strong>CONTACT FRANK</strong><br>
+              Tel: +353 (0) 87 7517729,<br>
+              Email: <a href=#>studio@frankmolloy.ie</a> 
+              <ul class="mg-footer-nav mg-copyright">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="contactus.php">Contact</a></li>
+                  </ul>
+
+
+                
+
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              
+            </div>
+            <div class="col-md-3 col-sm-6">
+              
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div  class="widget">
+                <h2 class="mg-widget-title">Social Media</h2>
+                <p style="font-size: 100%">To view my social media for current news and offers, visit the our pages with the icons below</p>
+                <ul class="mg-footer-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="mg-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="mg-footer-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="contactus.php">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <p class="copyright">&copy; 2016 <a href="#">Darren Moriarty</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </footer>
 
  
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

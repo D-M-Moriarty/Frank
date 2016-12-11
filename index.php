@@ -29,15 +29,48 @@
 
 	<style type="text/css">
 
-	body{
-		background-color: #fff;
+	html,body{
+        margin: 0px;
+        background-color: #d49b12;
+        /*color: background-color: #371e54;*/
+        /*background-image: url('images/18.jpg');
+        background-size: 100% auto;
+        background-repeat: repeat;
+        background-position: top;*/
+        height: 100%;
+        margin: 0;
+
+      }
+
+      .wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+	.navbar {
+		border-radius: 0;
+		/*background-color:  #16262e;*/
 	}
+/*
+	footer {
+		position:absolute;
+		bottom:0;
+		left:0;
+		background-color: #fff;
+		height: auto;
+		opacity: .9;
+	}*/
 		
 
 	p{
-		font-size: 150%;
+		font-size: 1.45em;
+		color: #342605;
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 		margin-top: 1em;
+
 	}
 
 	h1{
@@ -46,15 +79,171 @@
 		font-weight: bold;
 	}
 
+	#bootstrap-overrides .footer {
+		width: 100%
+		height: 4em;
+		color: #342605;
+	}
+
+	.rightText {
+		background-color: #fff;
+		border-radius: 5px;
+		width: 35%;
+		opacity: .9;
+	}
+
 	.imgresize {
 		width: 70%;
 		margin: 0 auto;
+		margin-bottom: 2em;
 	}
 
 
 	#bootstrap-overrides .row {
 		margin-top: 2em;
 	}
+
+	@media only screen and (min-width: 300px) {
+          .rightText {
+          	width: 90%;
+          	margin: 0 auto;
+          }
+
+          .imgresize {
+			width: 97%;
+		  }
+      }
+
+	@media only screen and (min-width: 400px) {
+          .rightText {
+          	width: 90%;
+          	margin: 0 auto;
+          }
+
+          .imgresize {
+			width: 97%;
+		  }
+      }
+
+      @media only screen and (min-width: 700px) {
+          .rightText {
+			background-color: #fff;
+			border-radius: 5px;
+			width: 80%;
+			opacity: .9;
+		   }
+
+		  .imgresize {
+			width: 90%;
+			margin: 0 auto;
+			margin-bottom: 2em;
+		   }
+
+		   p{
+			font-size: 1.5em;
+		   }
+      }
+
+      @media only screen and (min-width: 900px) {
+          .rightText {
+			background-color: #fff;
+			border-radius: 5px;
+			width: 50%;
+			opacity: .9;
+		   }
+
+		  .imgresize {
+			width: 90%;
+			margin: 0 auto;
+			margin-bottom: 2em;
+		   }
+
+		   p{
+			font-size: 1.5em;
+		   }
+      }
+
+      @media only screen and (min-width: 1100px) {
+          .rightText {
+			background-color: #fff;
+			border-radius: 5px;
+			width: 50%;
+			opacity: .9;
+		   }
+
+		  .imgresize {
+			width: 70%;
+			margin: 0 auto;
+			margin-bottom: 2em;
+		   }
+
+		   p{
+			font-size: 1.43em;
+		   }
+      }
+
+      @media only screen and (min-width: 1280px) {
+          .rightText {
+			background-color: #fff;
+			border-radius: 5px;
+			width: 35%;
+			opacity: .9;
+		   }
+
+		  .imgresize {
+			width: 70%;
+			margin: 0 auto;
+			margin-bottom: 2em;
+		   }
+
+		   p{
+			font-size: 1.45em;
+		   }
+      }
+
+      #bootstrap-overrides .mg-copyright li{
+	list-style-type: none;
+	display: inline;
+	padding: 1em;
+	
+}
+
+#bootstrap-overrides .mg-copyright {
+	width: 100%;
+	background-color: #fff;
+	height: auto;
+	padding: 1em;
+	position: relative;
+	left: -2em;
+}
+
+#bootstrap-overrides .mg-footer-social li{
+	display: inline;
+	font-size: 200%;
+	padding-right: .3em;
+	position: relative;
+	left: -1.5em;
+}
+
+.copyright {
+	color: #fff;
+}
+
+footer {
+    /*position: absolute; 
+    bottom: 0; 
+    left: 0; */
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    opacity: .9;
+  }
+
+  .footer,
+.push {
+  height: auto;
+  margin-top: 4em;
+}
 
 
 	</style>
@@ -88,15 +277,15 @@
 
 
 
-  <div class="container">
+  <div class="container wrapper">
     <div class="row">
       <div class="col-sm-6 col-md-6">
       
         <div class="thumbnail imgresize">
-          <img src="images/14.jpg" alt="...">
+          <img src="images/13.jpg" alt="...">
         </div>
       </div>
-      <div class="col-sm-6 col-md-5">
+      <div class="col-sm-6 col-md-5 rightText">
       <h1>The Abbey Children</h1>
         <p> A story of two children growing up near an old abbey
         	and church in Milltown, Co. Kerry. The family pets, the abbey and old white church
@@ -113,23 +302,67 @@
     </div><!-- end of row -->
   </div><!-- End of the container -->
 
-	
-	
-
-	
-
-
-    
-    
 
 
 
-    
-      
-      
-      
+	<footer class="footer">
+      <div class="mg-footer-widget">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div  class="widget">
+                <h2 class="mg-widget-title">Contact US</h2>
+                <strong>CONTACT FRANK</strong><br>
+			        Tel: +353 (0) 87 7517729,<br>
+			        Email: <a href=#>studio@abbeylandarts.ie</a> 
+			        <ul class="mg-footer-nav mg-copyright">
+	                	<li><a href="#">Home</a></li>
+	                	<li><a href="gallery.php">Gallery</a></li>
+	                	<li><a href="contactus.php">Contact</a></li>
+              		</ul>
 
 
+                
+
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              
+            </div>
+            <div class="col-md-3 col-sm-6">
+              
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div  class="widget">
+                <h2 class="mg-widget-title">Social Media</h2>
+                <p style="font-size: 100%">To view my social media for current news and offers, visit the our pages with the icons below</p>
+                <ul class="mg-footer-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="mg-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="mg-footer-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="contactus.php">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <p class="copyright">&copy; 2016 <a href="#">Darren Moriarty</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </footer>
 
  
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

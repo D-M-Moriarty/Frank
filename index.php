@@ -30,13 +30,12 @@
 	<style type="text/css">
 
 	body{
-		background-color: #d49b12;
+		background-color: #fff;
 	}
 		
 
 	p{
 		font-size: 150%;
-		color: #342605;
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 		margin-top: 1em;
 	}

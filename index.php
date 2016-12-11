@@ -28,13 +28,35 @@
     <![endif]-->
 
 	<style type="text/css">
+
+	body{
+		background-color: #d49b12;
+	}
 		
 
 	p{
-		font-size: 200%;
+		font-size: 150%;
+		color: #342605;
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-		vertical-align: middle;
+		margin-top: 1em;
 	}
+
+	h1{
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		margin-top: 0;
+		font-weight: bold;
+	}
+
+	.imgresize {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+
+	#bootstrap-overrides .row {
+		margin-top: 2em;
+	}
+
 
 	</style>
 
@@ -70,14 +92,14 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-md-6">
-        <div class="thumbnail">
+      
+        <div class="thumbnail imgresize">
           <img src="images/14.jpg" alt="...">
-          <div class="caption">
-          </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-6">
-        <p> A story of two chilren growing up near an old abbey
+      <div class="col-sm-6 col-md-5">
+      <h1>The Abbey Children</h1>
+        <p> A story of two children growing up near an old abbey
         	and church in Milltown, Co. Kerry. The family pets, the abbey and old white church
         	are brought to life with stories of the resident animals that live there. 
         	The story has been written and illustrated by the children's father Frank.</p>

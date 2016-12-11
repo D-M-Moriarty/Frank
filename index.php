@@ -52,7 +52,13 @@
 
 	.navbar {
 		border-radius: 0;
-		/*background-color:  #16262e;*/
+		background-color: #342605;
+        border-color: #342605;
+        color: #d49b12;
+	}
+
+	.navbar a {
+		color: #d49b12;
 	}
 /*
 	footer {
@@ -75,7 +81,7 @@
 
 	h1{
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-		margin-top: 0;
+		margin-top: .5em;
 		font-weight: bold;
 	}
 
@@ -86,7 +92,7 @@
 	}
 
 	.rightText {
-		background-color: #fff;
+		/*background-color: #fff;*/
 		border-radius: 5px;
 		width: 35%;
 		opacity: .9;
@@ -127,7 +133,7 @@
 
       @media only screen and (min-width: 700px) {
           .rightText {
-			background-color: #fff;
+			/*background-color: #fff;*/
 			border-radius: 5px;
 			width: 80%;
 			opacity: .9;
@@ -146,7 +152,7 @@
 
       @media only screen and (min-width: 900px) {
           .rightText {
-			background-color: #fff;
+			/*background-color: #fff;*/
 			border-radius: 5px;
 			width: 50%;
 			opacity: .9;
@@ -165,7 +171,7 @@
 
       @media only screen and (min-width: 1100px) {
           .rightText {
-			background-color: #fff;
+			/*background-color: #fff;*/
 			border-radius: 5px;
 			width: 50%;
 			opacity: .9;
@@ -184,9 +190,9 @@
 
       @media only screen and (min-width: 1280px) {
           .rightText {
-			background-color: #fff;
+			/*background-color: #fff;*/
 			border-radius: 5px;
-			width: 35%;
+			width: 36%;
 			opacity: .9;
 		   }
 

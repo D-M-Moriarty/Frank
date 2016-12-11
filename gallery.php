@@ -182,6 +182,13 @@ footer {
   margin-top: 3em;
 }
 
+.navbar {
+    border-radius: 0;
+    background-color: #342605;
+        border-color: #342605;
+        color: #d49b12;
+  }
+
     </style>
 
 </head>

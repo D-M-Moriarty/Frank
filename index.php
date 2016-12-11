@@ -32,7 +32,7 @@
 
 	p{
 		font-size: 200%;
-		font-family: 'Aref Ruqaa';
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 		vertical-align: middle;
 	}
 

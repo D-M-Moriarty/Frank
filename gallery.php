@@ -253,23 +253,37 @@ footer {
 
     <?php 
 
-    $info1 = "Golden Eagle <br>Black Valley Killarney,<br>Co. Kerry<br>Ireland<br>€55 incl postings<br>A2 print";
-    $info2 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
-    $info1 = "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings";
+
+    $infos = array("","Golden Eagle <br>Black Valley Killarney,<br>Co. Kerry<br>Ireland<br>€55 incl postings<br>A2 print",
+                        "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings",
+                        "Chester Races<br>England<br>A2 Print<br>€55",
+                        "Viking Skelligs<br>Co. Kerry Ireland<br>A2 Print 150 Limited Edition<br>€55",
+                        "Lourdes France<br>A2 Print 150 Limited Edition<br>€55",
+                        "Merlin,<br>Valentia Island<br>Co. Kerry<br>A2 Print 150 Limited Edition<br>€55",  
+                        "Viking Sunset<br>Skelligs Co. Kerry<br>A2 Print 150 Limited Edition<br>€55",
+                        "Kingdom Tigers & Cubs<br>A2 Print 150 Limited Edition<br>€55",
+                        "Pyrenees France<br>A2 Print 150 Limited Edition<br>€55",
+                        "Saoirse Peregrine Falken<br>Rossbeigh, Co. Kerry,<br>A2 Print 150 Limited Edition<br> €55",
+                        "White Tailed Eagles,<br>The Skelligs,<br>Co. Kerry Ireland,<br>A2 Print 150 Limited Edition<br>€55",
+                        "Godfreys,<br>Fox on Godfreys Tomb<br>White Church Milltown,<br>Co Kerry Ireland<br>A2 Print 150 Limited Edition<br>€55",
+                        "Abbey Children<br>€10",
+                        "placeholder",
+                        "placeholder",
+                        "Autumn Sunset,<br>Owl at Killagh Abbey,<br>A2 Print,<br>150 Limited Edition<br>€55",
+                        "Killian,<br>Fox with rabbit,<br>Killagh Abbey,<br>Milltown Co. Kerry,<br>A2 Print<br>150 Limited Edition<br>€55",
+                        "Mia,<br>Barn Owl at Killagh Abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition,<br>€55",
+                        "Cuckoo,<br>Cuckoo at Killagh Abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition,<br>€55",
+                        "Shaddows,<br>White Church,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition,<br>€55",
+                        "Snowman",
+                        "Blackcap Killagh Abbey Milltown<br>Co. Kerry<br>A2 Print 150 Limited Edition<br>€55",
+                        "placeholder",
+                        "placeholder",
+                        "placeholder",
+                        "Rabbit at Killagh Abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55");
 
       for ($i=1; $i < 27; $i++) { 
         echo "<div class='block gallery'>";
-        echo "<a href='images/$i.jpg' data-title='$info1' data-lightbox='the lightbox'>
+        echo "<a href='images/$i.jpg' data-title='$infos[$i]' data-lightbox='the lightbox'>
                 <img src='images/$i.jpg' class='img-thumbnail'>
               </a>";
         echo "</div>";

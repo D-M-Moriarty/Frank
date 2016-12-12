@@ -33,12 +33,12 @@
 
       html,body{
         margin: 0px;
-        /*background-color: #d49b12;*/
+        background-color: #fff;
         /*color: background-color: #371e54;*/
-        background-image: url('images/18.jpg');
+       /* background-image: url('images/18.jpg');
         background-size: 100% auto;
         background-repeat: repeat;
-        background-position: top;
+        background-position: top;*/
         height: 100%;
         margin: 0;
 
@@ -58,8 +58,8 @@
       }
 
       .btnColor {
-        background-color: #342605;
-        border-color: #342605;
+        background-color: #6b6f3b;
+        border-color: #6b6f3b;
       }
 
 
@@ -72,7 +72,7 @@
 
 #bootstrap-overrides .mg-copyright {
   width: 100%;
-  background-color: #fff;
+  background-color: #6b6f3b;
   height: auto;
   padding: 1em;
   position: relative;
@@ -96,9 +96,13 @@ footer {
     bottom: 0; 
     left: 0; */
     width: 100%;
-    background-color: #fff;
+    background-color: #6b6f3b;
     height: auto;
     opacity: .9;
+  }
+
+  footer, footer a {
+    color: #fff;
   }
 
   .footer,
@@ -107,11 +111,16 @@ footer {
   margin-top: 3em;
 }
 
-.navbar {
+#bootstrap-overrides .navbar {
     border-radius: 0;
-    background-color: #fff;
+    /*background-color: #fff;*/
         border-color: #fff;
         opacity: .9;
+        
+  }
+
+  #bootstrap-overrides .navbar a{
+    color: #6b6f3b;
   }
 
 

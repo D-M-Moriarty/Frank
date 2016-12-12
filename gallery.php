@@ -74,9 +74,22 @@
         opacity: .75;
       }
 
+      @media only screen and (min-width: 300px) {
+          .wrapContainer{
+            width: 95%;
+            padding: 0;
+          }
+          .block {
+              width: 100%;
+              margin: 0 auto;
+              margin-bottom: 2em;
+             /* margin-left: 5%;*/
+          }
+      }
+
       @media only screen and (min-width: 400px) {
           .wrapContainer{
-            width: 100%;
+            width: 95%;
             padding: 0;
           }
           .block {

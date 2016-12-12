@@ -123,12 +123,12 @@
 
 	@media only screen and (min-width: 400px) {
           .rightText {
-          	width: 90%;
+          	width: 95%;
           	margin: 0 auto;
           }
 
           .imgresize {
-			width: 97%;
+			width: 100%;
 		  }
       }
 

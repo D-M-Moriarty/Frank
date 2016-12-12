@@ -76,7 +76,7 @@
 
       @media only screen and (min-width: 400px) {
           .wrapContainer{
-            width: 90%;
+            width: 100%;
             padding: 0;
           }
           .block {

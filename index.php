@@ -136,12 +136,12 @@
           .rightText {
 			/*background-color: #fff;*/
 			border-radius: 5px;
-			width: 80%;
+			width: 95%;
 			opacity: .9;
 		   }
 
 		  .imgresize {
-			width: 90%;
+			width: 100%;
 			margin: 0 auto;
 			margin-bottom: 2em;
 		   }

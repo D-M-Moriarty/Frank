@@ -123,6 +123,42 @@ footer {
     color: #6b6f3b;
   }
 
+  #contact {
+    float: left;
+    margin-bottom: -1em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+
+  @media only screen and (min-width: 300px) {
+          #contact {
+            margin-left: 10%;
+          }
+      }
+
+      @media only screen and (min-width: 400px) {
+          #contact {
+            margin-left: 10%;
+          }
+      }
+
+      @media only screen and (min-width: 700px) {
+          #contact {
+            margin-left: 24%;
+          }
+      }
+
+      @media only screen and (min-width: 900px) {
+          
+      }
+
+      @media only screen and (min-width: 1100px) {
+          
+      }
+
+      @media only screen and (min-width: 1280px) {
+          
+      }
+
 
     </style>
 
@@ -156,8 +192,9 @@ footer {
 
   <div class="container wrapper">
 
-
+  <h1 id="contact">Contact</h1>
   <div class="theForm">
+
     <form class="form-horizontal" role="form" method="post" action="index.php">
       <div class="form-group">
         <label for="name" class="col-sm-2 control-label">Name</label>

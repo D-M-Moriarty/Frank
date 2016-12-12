@@ -292,12 +292,12 @@ footer {
                         "placeholder",
                         "placeholder",
                         "placeholder",
-                        "Rabbit at Killagh Abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55");
+                        "Rabbit at Killagh Abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55","");
 
-      for ($i=1; $i < 27; $i++) { 
+      for ($i=1; $i < 28; $i++) { 
         echo "<div class='block gallery'>";
         echo "<a href='images/$i.jpg' data-title='$infos[$i]' data-lightbox='the lightbox'>
-                <img src='images/$i.jpg' class='img-thumbnail'>
+                <img src='images/$i.png' class='img-thumbnail'>
               </a>";
         echo "</div>";
       }

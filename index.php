@@ -112,7 +112,7 @@
 
 	@media only screen and (min-width: 300px) {
           .rightText {
-          	width: 90%;
+          	width: 99%;
           	margin: 0 auto;
           }
 

@@ -280,7 +280,7 @@ footer {
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="book.php">Book</a></li>
+        <li><a href="gallery.php">Book</a></li>
         <li><a href="gallery.php">Gallery</a></li>
         <li><a href="contactus.php">About Us</a></li>
       </ul>
@@ -300,8 +300,8 @@ footer {
       </div>
       <div class="col-sm-6 col-md-5 rightText">
       <h1>Frank Molloy</h1>
-        <p> I am from Chester UK where I lived for 25 years . I have lived in Ireland since 1992. I am married with two teenage children .I have been interested in art all my life and spent many a day wondering around the walker art gallery. I have been inspired by nature,landscape,and history all my life.   Oils ,watercolour,and pastels are my favorite medium 's . </p><p>Lately I have written and illustrated a book about my children 's time growing up next to an Abbey and white church and also the animals living there. The book has done very well and I am in the process of illustrating another. Co.Kerry is a very beautiful and inspirational place to live with it's high mountain. Fabulous lakes and islands like the scelligs and the blasket islands
-        Kerry can now also boasts that it has the king of the skies with the white tailed eagle .</p>
+        <p> I am from Chester UK where I lived for 25 years . I have lived in Ireland since 1992. I am married with two teenage children .I have been interested in art all my life and spent many away wondering around the walker art gallery. I have been inspired by nature,landscape,and history all my life.   Oils ,watercolour,and pastels are my favorite medium 's . </p><p>Lately I have written and illustrated a book about my children 's time growing up next to an Abbey and white church and also the animals living there.      The book has done very well and I am in the process of illustrating another. Co.Kerry is a very beautiful and inspirational place to live with its highest mountain. Fabulous lakes and islands like the scelligs and the blanket island
+        Kerry can now also boasts that's  it has the king of the skies with the white tailed eagle .</p>
           </div>
         </div>
       </div>

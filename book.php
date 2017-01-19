@@ -273,14 +273,14 @@ footer {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Abbeyland Art</a>
+      <a class="navbar-brand" href="index.php">Abbeyland Art</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="book.php">Book</a></li>
+      <li><a href="index.php">Home</a></li>
+        <li class="active"><a href="#">Book<span class="sr-only">(current)</span></a></li>
         <li><a href="gallery.php">Gallery</a></li>
         <li><a href="contactus.php">About Us</a></li>
       </ul>
@@ -295,13 +295,20 @@ footer {
       <div class="col-sm-6 col-md-6">
       
         <div class="thumbnail imgresize">
-          <img src="images/IMAG0166_1.jpg" alt="...">
+          <img src="images/13.jpg" alt="...">
         </div>
       </div>
       <div class="col-sm-6 col-md-5 rightText">
-      <h1>Frank Molloy</h1>
-        <p> I am from Chester UK where I lived for 25 years . I have lived in Ireland since 1992. I am married with two teenage children .I have been interested in art all my life and spent many a day wondering around the walker art gallery. I have been inspired by nature,landscape,and history all my life.   Oils ,watercolour,and pastels are my favorite medium 's . </p><p>Lately I have written and illustrated a book about my children 's time growing up next to an Abbey and white church and also the animals living there. The book has done very well and I am in the process of illustrating another. Co.Kerry is a very beautiful and inspirational place to live with it's high mountain. Fabulous lakes and islands like the scelligs and the blasket islands
-        Kerry can now also boasts that it has the king of the skies with the white tailed eagle .</p>
+      <h1>The Abbey Children</h1>
+        <p> A story of two children growing up near an old abbey
+        	and church in Milltown, Co. Kerry. The family pets, the abbey and old white church
+        	are brought to life with stories of the resident animals that live there. 
+        	The story has been written and illustrated by the children's father Frank.</p>
+        <p>Frank Molloy grew up in Chester, England, an old roman city close to Liverpool.
+        	Frank first worked at Chester Zoo for several years before moving to Dublin where he met
+        	his wife Barbara. They now have two children Ciara and Wayne and live near Milltown,
+        	Co. Kerry. Frank has had an interest in art and nature all his life and decided 
+        	to record their time in Milltown with pictures and words.</p>
           </div>
         </div>
       </div>

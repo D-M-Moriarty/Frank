@@ -248,6 +248,7 @@ footer {
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="book.php">Book</a></li>
         <li class="active"><a href="#">Gallery</a></li>
         <li><a href="contactus.php">About Us</a></li>
       </ul>

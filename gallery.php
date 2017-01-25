@@ -297,7 +297,7 @@ footer {
 
       for ($i=1; $i < 28; $i++) { 
         echo "<div class='block gallery'>";
-        echo "<a href='images/$i.jpg' data-title='$infos[$i]' data-lightbox='the lightbox'>
+        echo "<a href='images/$i.jpeg' data-title='$infos[$i]' data-lightbox='the lightbox'>
                 <img src='images/$i.png' class='img-thumbnail'>
               </a>";
         echo "</div>";

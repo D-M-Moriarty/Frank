@@ -196,7 +196,7 @@ footer {
   <h1 id="contact">Contact</h1>
   <div class="theForm">
 
-    <form class="form-horizontal" role="form" method="post" action="index.php">
+    <form class="form-horizontal" role="form" method="post" action="mailto:frank@abbeylandarts.com" enctype="text/plain">
       <div class="form-group">
         <label for="name" class="col-sm-2 control-label">Name</label>
         <div class="col-sm-8">
@@ -218,6 +218,7 @@ footer {
       <div class="form-group">
         <div class="col-sm-10 col-sm-offset-2">
           <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary btnColor">
+          <input name="Make Order" type="submit" value="Submit">
         </div>
       </div>
       <div class="form-group">
@@ -241,7 +242,7 @@ footer {
                 <h2 class="mg-widget-title">Contact US</h2>
                 <strong>CONTACT FRANK</strong><br>
               Tel: +353 (0) 87 7517729,<br>
-              Email: <a href=#>studio@frankmolloy.ie</a> 
+              Email: <a href="mailto:frank@abbeylandarts.com">frank@abbeylandarts.com</a> 
               <ul class="mg-footer-nav mg-copyright">
                     <li><a href="#">Home</a></li>
                     <li><a href="gallery.php">Gallery</a></li>

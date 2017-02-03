@@ -268,36 +268,40 @@ footer {
     <?php 
 
 
-    $infos = array("","Golden Eagle <br>Black Valley Killarney,<br>Co. Kerry<br>Ireland<br>€55 incl postings<br>A2 print",
+      $infos = array("","Golden Eagle <br>Black Valley Killarney,<br>Co. Kerry<br>Ireland<br>€55 incl postings<br>A2 print",
                         "White Tailed Eagle <br>The Skelligs,<br>Co. Kerry<br>Ireland<br>€60 incl postings",
                         "Chester Races<br>England<br>A2 Print<br>€55",
                         "Viking Skelligs<br>Co. Kerry Ireland<br>A2 Print 150 Limited Edition<br>€55",
-                        "Lourdes France<br>A2 Print 150 Limited Edition<br>€55",
+                        "Pyrenees France<br>A2 Print 150 Limited Edition<br>€55",
                         "Merlin,<br>Valentia Island<br>Co. Kerry<br>A2 Print 150 Limited Edition<br>€55",  
                         "Viking Sunset<br>Skelligs Co. Kerry<br>A2 Print 150 Limited Edition<br>€55",
                         "Kingdom Tigers & Cubs<br>A2 Print 150 Limited Edition<br>€55",
-                        "Pyrenees France<br>A2 Print 150 Limited Edition<br>€55",
+                        "Lourdes France<br>A2 Print 150 Limited Edition<br>€55",
                         "Saoirse Peregrine Falken<br>Rossbeigh, Co. Kerry,<br>A2 Print 150 Limited Edition<br> €55",
                         "White Tailed Eagles,<br>The Skelligs,<br>Co. Kerry Ireland,<br>A2 Print 150 Limited Edition<br>€55",
                         "Godfreys,<br>Fox on Godfreys Tomb<br>White Church Milltown,<br>Co Kerry Ireland<br>A2 Print 150 Limited Edition<br>€55",
                         "Abbey Children<br>€10",
-                        "placeholder",
-                        "placeholder",
+                        "Poachers,<br>Castlemaine Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55",
+                        "kestrel at the abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55",
                         "Autumn Sunset,<br>Owl at Killagh Abbey,<br>A2 Print,<br>150 Limited Edition<br>€55",
                         "Killian,<br>Fox with rabbit,<br>Killagh Abbey,<br>Milltown Co. Kerry,<br>A2 Print<br>150 Limited Edition<br>€55",
                         "Mia,<br>Barn Owl at Killagh Abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition,<br>€55",
                         "Cuckoo,<br>Cuckoo at Killagh Abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition,<br>€55",
-                        "Shaddows,<br>White Church,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition,<br>€55",
-                        "Snowman",
+                        "Sparrow Halk,<br>White Church,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition,<br>€55",
+                        "Snowman Abbeylands,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55",
                         "Blackcap Killagh Abbey Milltown<br>Co. Kerry<br>A2 Print 150 Limited Edition<br>€55",
-                        "placeholder",
-                        "placeholder",
-                        "placeholder",
-                        "Rabbit at Killagh Abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55","");
+                        "Hen Harrier,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55",
+                        "Owl On Cross,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55",
+                        "white church,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55",
+                        "Rabbit at Killagh Abbey,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55",
+                        "Shaddows White Church,<br>Milltown Co. Kerry Ireland,<br>A2 Print 150 Limited Edition Print,<br> €55");
+
+
+// Abbey rabbit 13x9 half.  Snowman 13x9 half. White church 13x 9 half. Abbey children 13x9 half .owl on cross 13x9 half. . Hen harrier  14x10. Cuckoo 14x10. Mia Abbey owl In the snow 14x10 .Godfrey's tomb an fox 10 x13half.golden eagle 10 half x18 half .white tailed eagles 10 half x 14. Abbey fox 13 half 9 half. Shadows 11x14 .Chester races 14x 10. Viking sunset 13half10.  Pyrenees 10half x10.black cap 13half14half .Merlin's10halfx10  .Viking10half10. Tigres 14 x10half .Lourdes 14x10.Falcon 10x13half. White tailed and gannet 10 x11half. Kestrel 10x9 .owl sunset 9x13half. All in inches thanks darren
 
       for ($i=1; $i < 28; $i++) { 
         echo "<div class='block gallery'>";
-        echo "<a href='images/$i.jpeg' data-title='$infos[$i]' data-lightbox='the lightbox'>
+        echo "<a href='images/$i.jpg' data-title='$infos[$i]' data-lightbox='the lightbox'>
                 <img src='images/$i.png' class='img-thumbnail'>
               </a>";
         echo "</div>";
@@ -317,7 +321,7 @@ footer {
                 <h2 class="mg-widget-title">Contact US</h2>
                 <strong>CONTACT FRANK</strong><br>
               Tel: +353 (0) 87 7517729,<br>
-              Email: <a href=#>studio@frankmolloy.ie</a> 
+              Email: <a href="mailto:frank@abbeylandarts.com">frank@abbeylandarts.com</a> 
               <ul class="mg-footer-nav mg-copyright">
                     <li><a href="#">Home</a></li>
                     <li><a href="gallery.php">Gallery</a></li>

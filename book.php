@@ -42,7 +42,7 @@
 
       }
 
-      .wrapper {
+.wrapper {
   min-height: 100%;
 
   /* Equal to height of footer */
@@ -69,7 +69,7 @@
 
 	p{
 		font-size: 1.45em;
-		color: #342605;
+		color: #000;
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 		margin-top: 1em;
 
@@ -327,7 +327,7 @@ footer {
                 <h2 class="mg-widget-title">Contact US</h2>
                 <strong>CONTACT FRANK</strong><br>
 			        Tel: +353 (0) 87 7517729,<br>
-			        Email: <a href=#>studio@abbeylandarts.ie</a> 
+			        Email: <a href="mailto:frank@abbeylandarts.com">frank@abbeylandarts.com</a> 
 			        <ul class="mg-footer-nav mg-copyright">
 	                	<li><a href="#">Home</a></li>
 	                	<li><a href="gallery.php">Gallery</a></li>
